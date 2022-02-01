@@ -9,4 +9,4 @@ With a Console based User Interface users can track product, stock and transacti
 
 ### Menu
 Users will get to choose from the following options once they run the program:
-!(https://github.com/sowmyatdm/retail-inventory-manager/blob/main/Choices.PNG)
+![Image](https://github.com/sowmyatdm/retail-inventory-manager/blob/main/Choices.PNG)
