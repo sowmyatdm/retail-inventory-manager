@@ -19,28 +19,36 @@ The manager was built using Postgres as the database. Python script connects to 
 ```
 product
 
+  Column  |     Type      |
 ----------+---------------+
  id       | character(10) |
  name     | character(20) |
  category | character(20) |
  
- ```
+```
 
-                      Table "public.transaction"
-   Column   |         Type          | Collation | Nullable | Default
-------------+-----------------------+-----------+----------+---------
- dt         | date                  |           |          |
- c_id       | character varying(10) |           |          |
- id         | character varying(10) |           |          |
- sold_price | numeric(20,0)         |           |          |
- units_sold | integer               |           |          |
+```
+transaction
+
+   Column   |         Type          |
+------------+-----------------------+
+ dt         | date                  |
+ c_id       | character varying(10) |
+ id         | character varying(10) |
+ sold_price | numeric(20,0)         |
+ units_sold | integer               |
  
-                      Table "public.transaction"
-   Column   |         Type          | Collation | Nullable | Default
-------------+-----------------------+-----------+----------+---------
- dt         | date                  |           |          |
- c_id       | character varying(10) |           |          |
- id         | character varying(10) |           |          |
- sold_price | numeric(20,0)         |           |          |
- units_sold | integer               |           |          |
+ ```
+ 
+ ```
+ 
+ stock
+ 
+     Column     |     Type      |
+----------------+---------------+
+ id             | character(10) |
+ purchase_price | numeric(10,0) |
+ selling_price  | numeric(10,0) |
+ units          | integer       |
 
+```
