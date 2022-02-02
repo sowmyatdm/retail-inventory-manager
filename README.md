@@ -12,6 +12,7 @@ Users will get to choose from the following options once they run the program:
 ![Image](https://github.com/sowmyatdm/retail-inventory-manager/blob/main/Choices.PNG)
 
 
+
 ## Components
 The manager was built using Postgres as the database. Python script connects to the database using psycopg2 python library. *database.ini* file defines the db configuration parameters. A sample file is provided. Three tables are necessary for the manager's functionality. Their schema is as follows: 
 
@@ -24,6 +25,7 @@ product
  category | character(20) |
  
  ```
+
                       Table "public.transaction"
    Column   |         Type          | Collation | Nullable | Default
 ------------+-----------------------+-----------+----------+---------
